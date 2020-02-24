@@ -6,6 +6,6 @@ cd gitapp
 git add -A
 pause
 git commit -m %commit%
-git push origin master:bfinger
+git push origin master:master
 pause
 exit

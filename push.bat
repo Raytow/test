@@ -1,8 +1,8 @@
 @echo off
 set /p commit=commit:
 title auto commit
-d:
-cd gitapp
+
+pause
 git add -A
 pause
 git commit -m %commit%
